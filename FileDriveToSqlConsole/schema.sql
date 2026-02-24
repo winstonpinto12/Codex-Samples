@@ -1,0 +1,8 @@
+CREATE TABLE dbo.Documents
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    FileName NVARCHAR(260) NOT NULL,
+    FilePath NVARCHAR(1024) NOT NULL,
+    Content NVARCHAR(MAX) NOT NULL,
+    ImportedOnUtc DATETIME2 NOT NULL
+);
