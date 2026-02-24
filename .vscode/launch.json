@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch (Console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/FileDriveToSqlConsole/bin/Debug/net8.0/FileDriveToSqlConsole.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/FileDriveToSqlConsole",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}
